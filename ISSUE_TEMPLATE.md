@@ -14,7 +14,7 @@ Note: Please search to see if an issue already exists for the bug you encountere
 
 
 ## Branches
-[State which branches are affected/tested]
+[Delete/Update/Add which branches are affected/tested]
 1. Master
 2. Development
 3. [Other]
