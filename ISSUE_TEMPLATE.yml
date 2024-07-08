@@ -1,4 +1,5 @@
 name: Bug Report
+description: File a bug/issue
 title: "[Issue]: "
 labels: ["bug"]
 assignees:
