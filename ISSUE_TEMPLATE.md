@@ -30,12 +30,12 @@ Steps to reproduce the behavior:
 
 
 
-## Expected Behavior
+## Expected Behaviour
 [A clear and concise description of what you expected to happen.]
 
 
 
-## Action Behaviour
+## Actual Behaviour
 
 
 
