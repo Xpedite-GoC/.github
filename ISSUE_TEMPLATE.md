@@ -3,7 +3,7 @@ Note: Please search to see if an issue already exists for the bug you encountere
 -->
 
 ## Describe the Bug
-[A clear and concise description of what the bug is.]
+<!-- [A clear and concise description of what the bug is.] -->
 
 
 
@@ -14,24 +14,24 @@ Note: Please search to see if an issue already exists for the bug you encountere
 
 
 ## Branches
-[Delete/Update/Add which branches are affected/tested]
+<!-- [Delete/Update/Add which branches are affected/tested]
 1. Master
 2. Development
-3. [Other]
+3. [Other] -->
 
 
 
 ## Reproduction Steps
-Steps to reproduce the behavior:
+<!-- Steps to reproduce the behavior:
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
-4. See error
+4. See error -->
 
 
 
 ## Expected Behaviour
-[A clear and concise description of what you expected to happen.]
+<!-- [A clear and concise description of what you expected to happen.] -->
 
 
 
@@ -40,9 +40,9 @@ Steps to reproduce the behavior:
 
 
 ## Screenshots / Recording
-[If applicable, add screenshots to help explain your problem.]
+<!-- [If applicable, add screenshots to help explain your problem.] -->
 
 
 
 ## Additional context
-[Add any other context about the problem here.]
+<!-- [Add any other context about the problem here.] -->
