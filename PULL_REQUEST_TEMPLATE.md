@@ -1,9 +1,9 @@
 # PR Category
 <!-- [Delete as required do not add your own category] -->
 
-Feature/Update 
-Bug Fix
-
+Feature / Update 
+Bug Fix / Fixes #
+Code Cleanup
 
 
 # Description
