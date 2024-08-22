@@ -1,0 +1,64 @@
+name: Bug
+description: File a bug report
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      label: Describe the Bug
+      description: "A clear and concise description of what the bug is."
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Similar Issues
+      description: "A comma separated list of issue numbers"
+      placeholder: "#21, #123"
+
+  - type: dropdown
+    attributes:
+      label: Branches
+      description: "Which branches has this bug occured on"
+      multiple: true
+      options:
+        - Master
+        - Development
+        - Other (please specify below)
+      default: 1
+  - type: input
+
+  - type: markdown
+    attributes:
+      label: Steps to Reproduce
+      description: "A clear list of simple steps to help us reproduce the issue"
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Expected Behaviour
+      description: "A clear and concise description of what you expected to happen."
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Actual Behaviour
+      description: "A clear and concise description of what is actually happening."
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      label: Evidence
+      description: "Screenshots/Recordings to show what is happening."
+
+  - type: markdown
+    attributes:
+      label: Additional Context
+      description: "Any other information that could be useful to know."
