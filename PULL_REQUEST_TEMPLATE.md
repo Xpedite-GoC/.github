@@ -1,7 +1,7 @@
 # PR Version Change
-- [ ] Major
-- [ ] Minor
-- [X] Build
+* [ ] Major
+* [ ] Minor
+* [X] Build
 
 # PR Category
 <!-- [Delete as required do not add your own category] -->
