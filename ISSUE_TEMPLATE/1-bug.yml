@@ -1,21 +1,18 @@
-name: Bug
-description: File a bug report
-about: Use this template for tracking new bugs.
+name: "Bug Report"
+description: "File a bug report"
 title: "[DATE]: [BUG NAME]"
-labels: ["bug", "triage"]
 assignees: RobMcKinleyJr
 body:
   - type: markdown
     attributes:
-      label: Describe the Bug
-      description: "A clear and concise description of what the bug is."
+      value: "A clear and concise description of what the bug is."
     validations:
       required: true
 
   - type: input
     attributes:
       label: Similar Issues
-      description: "A comma separated list of issue numbers"
+      value: "A comma separated list of issue numbers"
       placeholder: "#21, #123"
 
   - type: dropdown
@@ -28,40 +25,38 @@ body:
         - Development
         - Other (please specify below)
       default: 1
-  - type: input
 
-  - type: markdown
+  - type: textarea
     attributes:
-      label: Steps to Reproduce
-      description: "A clear list of simple steps to help us reproduce the issue"
-      placeholder: |
+      label: "Reproduction Steps"
+      value: "A clear list of simple steps to help us reproduce the issue"
+      description: |
         1. Go to '...'
         2. Click on '....'
         3. Scroll down to '....'
         4. See error
+      render: markdown
     validations:
       required: true
 
   - type: input
     attributes:
       label: Expected Behaviour
-      description: "A clear and concise description of what you expected to happen."
+      value: "A clear and concise description of what you expected to happen."
     validations:
       required: true
 
   - type: input
     attributes:
       label: Actual Behaviour
-      description: "A clear and concise description of what is actually happening."
+      value: "A clear and concise description of what is actually happening."
     validations:
       required: true
 
   - type: markdown
     attributes:
-      label: Evidence
-      description: "Screenshots/Recordings to show what is happening."
+      value: "Screenshots/Recordings to show what is happening."
 
   - type: markdown
     attributes:
-      label: Additional Context
-      description: "Any other information that could be useful to know."
+      value: "Any other information that could be useful to know."
