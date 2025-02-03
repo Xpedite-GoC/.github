@@ -1,6 +1,9 @@
 name: Bug
 description: File a bug report
+about: Use this template for tracking new bugs.
+title: "[DATE]: [BUG NAME]"
 labels: ["bug", "triage"]
+assignees: RobMcKinleyJr
 body:
   - type: markdown
     attributes:
